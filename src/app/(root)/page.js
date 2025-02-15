@@ -1,9 +1,11 @@
-import Image from 'next/image';
+import Posts from "../components/Posts/Posts";
 
 export default function Home() {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='p-10'>
+            <h1 className='text-3xl font-semibold'>Posts:</h1>
+
+            <Posts />
         </div>
     );
 }
